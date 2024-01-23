@@ -8,5 +8,8 @@ public class Main {
         //  System.out.println("먼저 가, 난 틀렸어.");
 
         System.out.println("헬로 월드!");
+
+        //  한 줄짜리 주석
+        System.out.println("오른쪽을 봐"); // 주석이 요기잉네?
     }
 }
