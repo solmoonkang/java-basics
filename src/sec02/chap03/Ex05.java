@@ -14,5 +14,10 @@ public class Ex05 {
         // int 1yalco;
         // int yal co;
         // int #yalco;
+
+        // 사용 불가
+        // int double;
+        // boolean instanceof;
+        // char new;
     }
 }
