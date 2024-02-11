@@ -1,4 +1,4 @@
-package sec03_datatypes_operators.chap01;
+package sec03_datatypes_operators.chap01_interger;
 
 public class Ex03 {
     public static void main(String[] args) {
