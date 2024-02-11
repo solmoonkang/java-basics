@@ -1,4 +1,4 @@
-package sec02.chap03;
+package sec02_start.chap03;
 
 public class Ex04 {
     public static void main(String[] args) {
