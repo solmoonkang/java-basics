@@ -19,11 +19,11 @@ public class Ex03 {
 
         //  두 번째 인자 : ~번째 이후/이전부터 셈
         int int1 = str2.indexOf('얄');
-        int int2 = str2.indexOf('얄', 4);
+        int int2 = str2.indexOf('얄', 4);        // 즉, index=4 이후에 나오는 '얄'의 위치를 반환한다.
 
         int  int3 = str2.indexOf("얄라");
         int  int4 = str2.lastIndexOf("얄라");
-        int  int5 = str2.lastIndexOf("얄라", 12);
+        int  int5 = str2.lastIndexOf("얄라", 12); // indexOf와 반대로 index=12 이전에 나오는 "얄라"의 위치를 반환한다.
 
         //  💡 포함되지 않은 문자는 -1 반환
         int int6 = str2.indexOf('욜');
