@@ -1,4 +1,4 @@
-package sec02_start.chap03;
+package sec02_start.chap03_datatypes_variables;
 
 public class Ex02 {
     public static void main(String[] args) {
