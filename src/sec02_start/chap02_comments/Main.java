@@ -1,4 +1,4 @@
-package sec02_start.chap02;
+package sec02_start.chap02_comments;
 
 public class Main {
     public static void main(String[] args) {
