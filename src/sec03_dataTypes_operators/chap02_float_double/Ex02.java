@@ -1,4 +1,4 @@
-package sec03_datatypes_operators.chap02_float_double;
+package sec03_dataTypes_operators.chap02_float_double;
 
 public class Ex02 {
     public static void main(String[] args) {
