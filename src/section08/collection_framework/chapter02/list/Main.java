@@ -178,5 +178,16 @@ public class Main {
         String list2Type = list2.getClass().getName();
 
         // list1.add(6); // ⚠️ 런타임 오류
+
+
+
+        List<Integer> intList = new ArrayList<>();
+        intList = new LinkedList<>();
+
+        Set<String> strSet = new HashSet<>();
+        strSet = new TreeSet<>();
+
+        Map<Integer, String> intStrMap = new HashMap<>();
+        intStrMap = new TreeMap<>();
     }
 }
