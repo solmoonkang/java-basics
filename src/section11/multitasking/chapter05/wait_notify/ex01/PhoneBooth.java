@@ -11,13 +11,13 @@ public class PhoneBooth {
         System.out.println("👍 %s 전화 사용 완료".formatted(soldier.title));
 
         //  💡 아래를 해제하지 않으면 첫 사용자가 혼자 다 씀
-        //notifyAll();
-        //try {
-        //    //  💡 현 사용자를 폰부스에서 내보냄
-        //    //  - sleep처럼 아래의 예외 반환 확인
-        //    wait();
-        //} catch (InterruptedException e) {
-        //    throw new RuntimeException(e);
-        //}
+        notifyAll();
+        try {
+            //  💡 현 사용자를 폰부스에서 내보냄
+            //  - sleep처럼 아래의 예외 반환 확인
+            wait();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
