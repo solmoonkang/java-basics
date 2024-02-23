@@ -13,7 +13,7 @@ public class ATM {
     }
 
     //  💡 앞에 synchronized를 붙이고 다시 실행해 볼 것
-    public void withdraw (String name, int amount) {
+    synchronized public void withdraw (String name, int amount) {
 
         //  💡 또는 아래 내용을 이 블록으로 옮겨 볼 것
         //  - this는 현 쓰레드를 의미함
