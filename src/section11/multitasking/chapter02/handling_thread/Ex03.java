@@ -15,12 +15,6 @@ public class Ex03 {
                 String line = sc.nextLine();
 
                 //  🔽 이곳에 다음의 코드들을 붙여넣을 것
-
-
-
-                if (line.equalsIgnoreCase("quit")) break;
-                System.out.println(line);
-
                 if (line.equalsIgnoreCase("check")) {
                     System.out.println("아직 안 끝났니?");
                     System.out.println(
@@ -58,6 +52,10 @@ public class Ex03 {
                     //    - 데이터 오염, 리소스 누수 등
                     //  - suspend, resume 등도 마찬가지
                 }
+
+
+                if (line.equalsIgnoreCase("quit")) break;
+                System.out.println(line);
             }
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
