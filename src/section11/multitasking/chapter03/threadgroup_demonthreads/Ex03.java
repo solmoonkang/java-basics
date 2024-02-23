@@ -31,7 +31,7 @@ public class Ex03 {
 
             //  💡 리듬 쓰레드를 본 노래 쓰레드의 데몬으로 지정
             //  - 이 부분이 없으면 노래가 끝나도 리듬이 멈추지 않음
-            //rythmThread.setDaemon(true);
+            rythmThread.setDaemon(true);
 
             rythmThread.start();
 
