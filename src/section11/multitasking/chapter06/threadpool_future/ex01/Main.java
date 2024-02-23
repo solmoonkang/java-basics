@@ -1,5 +1,6 @@
 package section11.multitasking.chapter06.threadpool_future.ex01;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -27,7 +28,7 @@ public class Main {
         //  💡 shutdown : 풀 닫기 (투입 중단, 더 투입시 예외)
         //  - ⭐ 이를 생략하면 프로그램이 끝나지 않음
         //  - 일단 들어간 지원자는 자리가 날 때까지 기다리다 일 함
-        es.shutdown();
+        //es.shutdown();
         //es.execute(new VolunteerRun(cave)); // ⚠️ 닫혔으므로 예외 발생
 
         //  💡 shutdownNow : 풀 닫고 투입된 지원자 해산, 진행중인 업무 강제종료
@@ -35,7 +36,7 @@ public class Main {
         //    - 각 쓰레드에 InterruptedException을 유발할 뿐
         //    - 각 Runnable에서 해당 예외 발생시 종료되도록 처리해주어야 함
         //  - 투입되어 대기중인 지원자들은 리스트 형태로 반환
-        //List<Runnable> waitings = es.shutdownNow();
-        //System.out.println(waitings);
+        List<Runnable> waitings = es.shutdownNow();
+        System.out.println(waitings);
     }
 }

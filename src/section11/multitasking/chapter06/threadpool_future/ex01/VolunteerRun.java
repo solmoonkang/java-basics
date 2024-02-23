@@ -30,12 +30,12 @@ public class VolunteerRun implements Runnable {
 
             //  💡 아래의 return이 없다면 shutdownNow를 해도 중단되지 않음
             //  - 주석해제하고 shutdownNow 버전으로 다시 실행해 볼 것
-            //working--;
-            //System.out.printf(
-            //        "🛑 %d번 지원자 중단 (현재 %d명 펌핑중, 남은 물 %d)%n",
-            //        no, working, cave.getWater()
-            //);
-            //return;
+            working--;
+            System.out.printf(
+                    "🛑 %d번 지원자 중단 (현재 %d명 펌핑중, 남은 물 %d)%n",
+                    no, working, cave.getWater()
+            );
+            return;
         }
 
         cave.pump();
