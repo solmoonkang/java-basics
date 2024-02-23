@@ -7,8 +7,8 @@ public class Ex03 {
 
         Thread tarzanSong = new Thread(new TarzanRun(10));
         tarzanSong
-                .run(); // 타잔 노래가 끝나야 입력에 응답 가능
-        //.start(); // ⭐ 입력 응답과 동시 진행 가능해짐
+        //        .run(); // 타잔 노래가 끝나야 입력에 응답 가능
+        .start(); // ⭐ 입력 응답과 동시 진행 가능해짐
 
         try (Scanner sc = new Scanner(System.in)) {
             while (sc.hasNext()) {
