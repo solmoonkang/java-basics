@@ -1,4 +1,4 @@
-package section12.data_inputoutput_networking.chapter01.handling_files_folders;
+package section12.data_input_output_networking.chapter01.handling_files_folders;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,8 @@ import java.io.IOException;
 public class Ex01 {
 
     // 프로젝트에 맞게
-    public static final String CUR_PATH = "src/section12/data_inputoutput_networking/chapter01/handling_files_folders/";
+    public static final String CUR_PATH =
+            "src/section12/data_input_output_networking/chapter01/handling_files_folders/";
 
     public static void main(String[] args) {
 
